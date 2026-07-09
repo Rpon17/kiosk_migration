@@ -14,12 +14,10 @@ from app.crud.category import (
 )
 
 
-
 router = APIRouter(
     prefix="/categories",
     tags=["Category"]
 )
-
 
 
 def get_db():
@@ -31,8 +29,6 @@ def get_db():
 
     finally:
         db.close()
-
-
 
 @router.post(
     "",

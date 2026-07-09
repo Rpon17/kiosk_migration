@@ -55,8 +55,6 @@ def create(
     )
 
 
-
-
 @router.put(
     "/{product_id}",
     response_model=StockResponse

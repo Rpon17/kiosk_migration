@@ -10,12 +10,9 @@ class StockCreate(BaseModel):
     quantity: int
 
 
-
 class StockUpdate(BaseModel):
 
     quantity: int
-
-
 
 class StockResponse(BaseModel):
 
